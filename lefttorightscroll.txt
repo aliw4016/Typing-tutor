@@ -1,0 +1,542 @@
+<section>
+    <div class="box section-10">
+        <nav class="navbar navbar-expand-lg home-nav ">
+            <img src="{{asset('assets/images/logo.png')}}" alt="logo" width="70">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ">
+                <ul class="navbar-nav mr-auto ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Go Zebra <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Seller </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                </ul>
+                @include('layouts.partials.login_section', ['foreground' => 'black-color', 'background' => 'white-bg'])
+            </div>
+        </nav>
+        <div class="grid-col-sec-3 pl-70 pr-70 pt-40 yellow-bg">
+            <div class="phone-wrapper">
+                <img src="{{asset('assets/images/mobile.svg')}}" alt="mobile" class="img-fluid mobile-height-right">
+            </div>
+            <div>
+                <div class="d-flex justify-content-end mt-20">
+                    <img src="{{asset('assets/images/click.svg')}}" width="40" class="mb-2 ">
+                </div>
+                <div class="mt-40">
+                    <img src="{{asset('assets/images/click.svg')}}" width="40" class="mb-2">
+                    <h1 class="vendor-h1 mb-0">Safe Payment,</h1>
+                    <h1 class="vendor-h1 pt-0">Multiple Payment options,</h1>
+                    <p>Why stick to just one mode of payment. Also, GoZebra helps decrease
+                        credit cycles on your COD sales. Making sure you get your hard
+                        earned cash, in your account, sooner than later</p>
+                    <img src="{{asset('assets/images/cart.svg')}}" height="80" class="payment-img">
+                </div>
+            </div>
+
+        </div>
+        <div class=" vh-15 footer-section mine-shaft-bg">
+        </div>
+    </div>
+</section>
+<section>
+    <div class="box section-9">
+        <nav class="navbar navbar-expand-lg home-nav ">
+            <img src="{{asset('assets/images/logo.png')}}" alt="logo" width="70">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ">
+                <ul class="navbar-nav mr-auto ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Go Zebra <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Seller </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                </ul>
+                @include('layouts.partials.login_section', ['foreground' => 'black-color', 'background' => 'white-bg'])
+            </div>
+        </nav>
+        <div class="grid-col-sec-3 pl-70 pr-70 pt-40">
+            <div class="phone-wrapper text-center">
+                <img src="{{asset('assets/images/mobile.svg')}}" alt="mobile" class="img-fluid mobile-height-left">
+            </div>
+
+            <div>
+                <div class="d-flex justify-content-end mt-20">
+                    <img src="{{asset('assets/images/click.svg')}}" width="40" class="mb-2 ">
+                </div>
+                <div class="mt-40">
+                    <img src="{{asset('assets/images/click.svg')}}" width="40" class="mb-2">
+                    <h1 class="vendor-h1">Multiple Safe Payment Options.</h1>
+                    <p>Cash on Delivery, Debit/Credit Card Payment, Jazz Cash Easy
+                        Paisa, you name it</p>
+                    <img src="{{asset('assets/images/cart.svg')}}" height="80" class="payment-img">
+                </div>
+            </div>
+
+        </div>
+        <div class=" vh-15 footer-section mine-shaft-bg">
+        </div>
+    </div>
+</section>
+<section>
+    <div class="box section-8">
+        <div class="mine-shaft-bg">
+            <div id="backgroundImage8">
+                <nav class="navbar navbar-expand-lg home-nav ">
+                    <img src="{{asset('assets/images/logo_white.svg')}}" alt="logo" width="70">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ">
+                        <ul class="navbar-nav mr-auto ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Go Zebra <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Seller </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Help</a>
+                            </li>
+                        </ul>
+                        @include('layouts.partials.login_section', ['foreground' => 'black-color', 'background' => 'white-bg'])
+                    </div>
+                </nav>
+                <div class="grid-col-3 vh-100  pl-70 pr-70 pt-40">
+                    <div>
+                        <img src="{{asset('assets/images/page_8/boxes.svg')}}" height="150" class="lamp-img">
+                    </div>
+                    <div class="pt-80">
+                        <img src="{{asset('assets/images/page_8/location.svg')}}" width="50" class="mb-20">
+                        <h1 class="text-light">Transaction and Shipment
+                            tracking.</h1>
+                        <p class="text-light">Track all the sales you have made and every item that is
+                            in delivery, live <br> tracking helps make sure you know where
+                            your orders are. Add inventory levels to manage inventory <br>
+                            as well, and make you life easrier</p>
+                    </div>
+                    <div class="phone-wrapper">
+                        <img src="{{asset('assets/images/page_8/pointer.svg')}}" width="50">
+                        <img src="{{asset('assets/images/mobile.svg')}}" alt="mobile"
+                             class="img-fluid mobile-height-right float-right">
+                    </div>
+                </div>
+            </div>
+            <div class=" vh-15 footer-section bg-white">
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="box section-7">
+        <div class="yellow-bg">
+            <div id="backgroundImage7">
+                <nav class="navbar navbar-expand-lg home-nav ">
+                    <img src="{{asset('assets/images/logo.png')}}" alt="logo" width="70">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ">
+                        <ul class="navbar-nav mr-auto ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Go Zebra <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Seller </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Help</a>
+                            </li>
+                        </ul>
+                        @include('layouts.partials.login_section', ['foreground' => 'black-color', 'background' => 'white-bg'])
+                    </div>
+                </nav>
+                <div class="grid-col-sec-3 pl-70 pr-70 pt-40 ">
+                    <div class="phone-wrapper text-center">
+                        <img src="{{asset('assets/images/mobile.svg')}}" alt="mobile"
+                             class="img-fluid mobile-height-left">
+                    </div>
+                    <div>
+                        <div class="d-flex justify-content-end mt-20">
+                            <img src="{{asset('assets/images/page_7/tick.svg')}}" width="40" class="mb-2 ">
+                        </div>
+                        <div class="mt-40">
+                            <img src="{{asset('assets/images/page_7/card.svg')}}" width="90" class="mb-10">
+                            <h1 class="vendor-h1 mb-0">Safe Payment,</h1>
+                            <h1 class="vendor-h1 pt-0">Multiple Payment options,</h1>
+                            <p>Why stick to just one mode of payment. Also, GoZebra helps decrease
+                                credit cycles on <br> your COD sales. Making sure you get your hard
+                                earned cash, in your account, sooner <br> than later</p>
+                        </div>
+                    </div>
+                    <div><img src="{{asset('assets/images/page_7/plant.svg')}}" height="250" class="payment-img2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" vh-15 footer-section mine-shaft-bg">
+        </div>
+    </div>
+</section>
+<section>
+    <div class="box section-6">
+        <div id="backgroundImage6">
+            <nav class="navbar navbar-expand-lg home-nav ">
+                <img src="{{asset('assets/images/logo.png')}}" alt="logo" width="70">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ">
+                    <ul class="navbar-nav mr-auto ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Go Zebra <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Seller </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </ul>
+                    @include('layouts.partials.login_section', ['foreground' => 'white-color', 'background' => 'black-bg'])
+                </div>
+            </nav>
+            <div class="grid-col-3 vh-100  pl-70 pr-70 pt-40">
+                <div>
+                    <img src="{{asset('assets/images/page_6/person.svg')}}" height="180" class="lamp-img">
+
+                </div>
+                <div class="pt-70">
+                    <img src="{{asset('assets/images/page_6/time.svg')}}" width="80" class="mb-20">
+                    <h1 class="home-h1"><strong>Decrease Time Spent on
+                            Gathering information.</strong></h1>
+                    <p>Skip filling forms and giving payment/account/address details to every <br>
+                        seller you purchase from. With onw login, access all your favorite sellers <br>
+                        who are regiested on GoZebra.</p>
+                </div>
+                <div class="phone-wrapper">
+                    <img src="{{asset('assets/images/page_6/clock.svg')}}" width="50">
+                    <img src="{{asset('assets/images/mobile.svg')}}" alt="mobile"
+                         class="img-fluid mobile-height-right float-right">
+                </div>
+            </div>
+            <div class=" vh-15 footer-section yellow-bg">
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="box section-5">
+        <div class="mine-shaft-bg">
+            <div id="backgroundImage5">
+                <nav class="navbar navbar-expand-lg">
+                    <img src="{{asset('assets/images/logo_white.svg')}}" alt="logo" width="70">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ">
+                        <ul class="navbar-nav mr-auto ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Go Zebra <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Seller </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Help</a>
+                            </li>
+                        </ul>
+                        @include('layouts.partials.login_section', ['foreground' => 'black-color', 'background' => 'white-bg'])
+                    </div>
+                </nav>
+
+                <div class="grid-col-sec-3 pl-70 pr-70 pt-40">
+                    <div class="phone-wrapper text-center">
+                        <img src="{{asset('assets/images/mobile.svg')}}" alt="mobile"
+                             class="img-fluid mobile-height-left">
+                    </div>
+                    <div class="pt-50">
+                        <div class="d-flex justify-content-end">
+                            <img src="{{asset('assets/images/page_5/arrow.svg')}}" width="50">
+                        </div>
+                        <img src="{{asset('assets/images/page_5/cart.svg')}}" width="80" class="mb-20">
+                        <h2 class="text-light"><strong>One Click</strong></h2>
+                        <h2 class="text-light"><b>Checkout For Customers.</b></h2>
+                        <p class="text-light">
+                            Ease the process of buying for your customers. Eliminate the time customers
+                            spend on <br> messaging and communicating with you, speed up their buying
+                            process and increase <br>your sales.
+                        </p>
+                    </div>
+                    <div class="mt-40">
+                        <img src="{{asset('assets/images/page_5/bags.svg')}}" height="80" class="payment-img">
+                    </div>
+
+                </div>
+                <div class=" vh-15 footer-section bg-white">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="box section-4">
+        <div class="mine-shaft-bg">
+            <div id="backgroundImage4">
+                <nav class="navbar navbar-expand-lg">
+                    <img src="{{asset('assets/images/logo_white.svg')}}" alt="logo" width="70">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ">
+                        <ul class="navbar-nav mr-auto ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Go Zebra <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Seller </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Help</a>
+                            </li>
+                        </ul>
+                        @include('layouts.partials.login_section', ['foreground' => 'black-color', 'background' => 'white-bg'])
+                    </div>
+                </nav>
+                <div class="grid-col-3 vh-100  pl-70 pr-70 pt-40">
+                    <div>
+                        <img src="{{asset('assets/images/page_4/bike.svg')}}" height="150" class="lamp-img">
+
+                    </div>
+                    <div class="pt-80">
+                        <img src="{{asset('assets/images/page_4/clock.svg')}}" width="70" class="mb-20">
+                        <h1 class="text-light "><strong>Manage Transactions <br>
+                                & Delivery.</strong></h1>
+                        <p class="text-light">
+                            Track your purchases and deliveries from different sellers on a single <br>
+                            plateform. Know what you have ordered and when your will get it. Live <br>
+                            time tracking
+                        </p>
+                        <div>
+                            <img src="{{asset('assets/images/page_4/progressbar.svg')}}" width="400">
+                        </div>
+                    </div>
+                    <div class="phone-wrapper">
+                        <img src="{{asset('assets/images/page_4/clock2.svg')}}" width="50" class="mt-10">
+                        <img src="{{asset('assets/images/mobile.svg')}}" alt="mobile"
+                             class="img-fluid mobile-height-right float-right">
+                    </div>
+                </div>
+                <div class=" vh-15 footer-section bg-white">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="box section-3">
+        <div id="backgroundImage3">
+            <nav class="navbar navbar-expand-lg home-nav ">
+                <img src="{{asset('assets/images/logo.png')}}" alt="logo" width="70">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ">
+                    <ul class="navbar-nav mr-auto ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Go Zebra <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Seller </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </ul>
+                    @include('layouts.partials.login_section', ['foreground' => 'black-color', 'background' => 'yellow-bg'])
+                </div>
+            </nav>
+            <div class="grid-col-2 pl-70 pr-70 pt-40 vh-100">
+                <div class="phone-wrapper text-center">
+                    <img src="{{asset('assets/images/mobile.svg')}}" alt="mobile"
+                         class="img-fluid mobile-height-left">
+                </div>
+
+                <div>
+                    <div class="d-flex justify-content-end">
+                        <img src="{{asset('assets/images/page_3/payment.svg')}}" width="100" class="mb-2 ">
+                    </div>
+                    <div class="mt-20">
+                        <img src="{{asset('assets/images/page_3/tick.svg')}}" width="80" class="mb-20">
+                        <h1 class="vendor-h1">Multiple Safe Payment Options.</h1>
+                        <p>Cash on Delivery, Debit/Credit Card Payment, Jazz Cash Easy
+                            Paisa, you name it</p>
+                        <img src="{{asset('assets/images/page_3/payment_card2.svg')}}" height="80"
+                             class="payment-img">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class=" vh-15 footer-section mine-shaft-bg">
+        </div>
+    </div>
+</section>
+<section>
+    <div class="box section-2">
+        <div class="yellow-bg">
+            <div id="backgroundImage2">
+                <nav class="navbar navbar-expand-lg home-nav ">
+                    <img src="{{asset('assets/images/logo.png')}}" alt="logo" width="70">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ">
+                        <ul class="navbar-nav mr-auto ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Go Zebra <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Seller </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Help</a>
+                            </li>
+                        </ul>
+                        @include('layouts.partials.login_section', ['foreground' => 'white-color', 'background' => 'black-bg'])
+
+                    </div>
+                </nav>
+                <div class="grid-col-3 vh-100  pl-70 pr-70 pt-40">
+                    <div>
+                        <img src="{{asset('assets/images/page_2/lamp.svg')}}" height="170" class="lamp-img">
+                        <img src="{{asset('assets/images/page_2/cup.svg')}}" height="60" class="cup-img">
+
+                    </div>
+                    <div class="pt-90">
+                        <img src="{{asset('assets/images/page_2/plus.svg')}}" width="70">
+                        <h1 class="vendor-h1 pt-40">Single Login For Multiple
+                            Vendors.</h1>
+                        <p>Skip filling forms and giving payment/account/address details to every <br>
+                            seller you purchase from. With onw login, access all your favorite sellers <br>
+                            who are regiested on GoZebra.</p>
+                    </div>
+                    <div class="phone-wrapper">
+                        <img src="{{asset('assets/images/page_2/star.svg')}}" width="70">
+                        <img src="{{asset('assets/images/mobile.svg')}}" alt="mobile"
+                             class="img-fluid float-right mobile-height-right">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" vh-15 footer-section bg-white"></div>
+
+    </div>
+</section>
+<section>
+    <div class="box section-1">
+        <div id="backgroundImage">
+            <nav class="navbar navbar-expand-lg home-nav ">
+                <img src="{{asset('assets/images/logo.png')}}" alt="logo" width="70">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ">
+                    <ul class="navbar-nav mr-auto ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Go Zebra <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Seller </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </ul>
+                    @include('layouts.partials.login_section', ['foreground' => 'white-color', 'background' => 'black-bg'])
+                </div>
+            </nav>
+            <div class="grid-col-2 vh-100 ">
+                <div class="phone-wrapper text-center ">
+                    <img src="{{asset('assets/images/mobile.svg')}}" alt="mobile"
+                         class=" mobile-height-left">
+                </div>
+                <div>
+                    <img src="{{asset('assets/images/click.svg')}}" width="40" class="mb-2">
+                    <h1 class="home-h1">One Click.</h1>
+                    <h1 class="home-h1">Fast Checkout.</h1>
+                    <h1 class="home-h1">Pakistan’s fastest checkout page.</h1>
+                    <p>No need to wait for sellers to respond to your product queries. One page, <br>all
+                        product information and every product is one click away</p>
+
+                    <img onclick="window.location = '{{route('register')}}'" src="{{asset('assets/images/right_arrow_2.svg')}}" height="60" class="mb-0 pb-0">
+                    <p class="pt-0 mt-0">Get Fast for your business</p>
+
+
+                    <div class="d-flex justify-content-around">
+                        <img src="{{asset('assets/images/cart.svg')}}"  class="cart-img">
+                        <img src="{{asset('assets/images/plant.svg')}}"  class="plant-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" vh-15 footer-section yellow-bg"></div>
+    </div>
+</section>
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenLite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TimelineLite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/utils/Draggable.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/CSSPlugin.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/easing/EasePack.min.js"></script>

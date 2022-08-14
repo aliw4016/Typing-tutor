@@ -1,0 +1,25 @@
+#online
+{
+    transform :translate(-2%,-2%);
+    font-size: 6em;
+    color: #fff;
+    text-shadow: 0 0 20px #ff005b;
+}
+#online:after
+{
+    content: attr(data-text);
+    position: absolute;
+    padding: 0 20px;
+    z-index: -1;
+    
+    filter: blur(110px); 
+}
+#online:before
+{
+    content: '';
+    position: absolute;
+    background: #fff;
+    z-index: -2;
+    opacity: -5;
+     
+}

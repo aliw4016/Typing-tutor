@@ -1,0 +1,19 @@
+body
+{
+    background-color: #1C9A71;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.colour
+{
+	color: #ffffff;
+}
+.colourtwo
+{
+	color: #000000;
+}
